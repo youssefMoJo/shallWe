@@ -1,0 +1,145 @@
+.footerContainer {
+    height: fit-content;
+    background-color: #17454f;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterGraphicsContainer {
+    position: absolute;
+    margin-top: 2vh;
+}
+
+.FooterGraphics {
+    width: 13vh;
+}
+
+.footerTexts {
+    margin-top: 12vh;
+    width: fit-content
+}
+
+.text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    /* margin-bottom: -2vh; */
+}
+
+.text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    color: #dbd6d6;
+    /* margin-bottom: -2vh; */
+}
+
+.text3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+    color: #22ED98;
+}
+
+.emailForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.email {
+    padding: 20px 10px 20px 32px;
+    background-color: #0F3841;
+    color: white;
+    border-radius: 61px 0 0 61px;
+    width: 40vh;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgb(175, 163, 163);
+    font-size: larger;
+}
+
+.subscribeButton {
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background: #ED8622;
+    border-radius: 0px 61px 61px 0px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+}
+
+.signUpButton {
+    border: none;
+    outline: none;
+    width: 200px;
+    background: #ED8622;
+    border-radius: 61px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    scroll-behavior: smooth;
+}
+
+.signUpButton:hover {
+    background-color: #cf7d2b;
+}
+
+
+@media only screen and (max-width: 820px) {
+    .text2 {
+        font-size: 25px;
+        margin: 0vh 1.5vh 0 1.5vh;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .footerTexts {
+        margin: 15vh 0vh 0 0vh;
+    }
+
+    .text1 {
+        font-size: 20px;
+        margin-top: 0.5vh;
+    }
+
+    .text2 {
+        font-size: 17px;
+    }
+
+    .text3 {
+        font-size: 17px;
+    }
+
+    .email {
+        width: 25vh;
+        height: 1px;
+        font-size: 13px;
+    }
+
+    .subscribeButton {
+        width: 90px;
+        font-size: 15px;
+        height: 40px;
+    }
+}

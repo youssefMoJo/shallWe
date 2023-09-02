@@ -1,0 +1,121 @@
+.GalleryContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.GalleryCopy {
+    width: 35%;
+    margin-left: 10vh;
+}
+
+.GalleryGraphics {
+    width: 75%;
+}
+
+.GalleryCopyWhiteSquare {
+    width: fit-content;
+    padding: 0 6px 0 6px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    border-style:solid;
+    background-color: white;
+    font-family: 'Roboto';
+    font-size:xxx-large;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.GalleryCopyTitle {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align:start;
+    margin-bottom: 10px;
+}
+
+.GalleryCopyDescription {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    color: #c5c5c5;
+    text-align:start;
+}
+
+@media only screen and (max-width: 1400px) {
+    .GalleryCopy {
+        width: 30%;
+        margin-left: 10vh;
+    }
+    
+    .GalleryGraphics {
+        width: 70%;
+    }
+
+    .GalleryCopyTitle {
+        font-size: 25px;
+    }
+
+    .GalleryCopyDescription{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .GalleryContainer {
+        height: 80%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .GalleryCopy {
+        width: 65%;
+        margin-left: 5vh;
+    }
+
+    .GalleryGraphics {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 720px)  {
+    .GalleryContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        height: 80%;
+        margin-top: 130px;
+    }
+
+    .GalleryCopy {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .GalleryGraphics {
+        width: 100%;
+    }
+
+    .GalleryCopyWhiteSquare {
+        font-size:xx-large;
+    }
+
+    .GalleryCopyWhiteSquare {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .GalleryCopyTitle {
+        font-size: 24px;
+        text-align: center
+    }
+
+    .GalleryCopyDescription {
+        text-align: center;
+    }
+}

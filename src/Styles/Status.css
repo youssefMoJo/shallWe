@@ -1,0 +1,120 @@
+.StatusContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.StatusCopy {
+    width: 35%;
+    margin-left: 10vh;
+}
+
+.StatusGraphics {
+    width: 75%;
+}
+
+.StatusCopyWhiteSquare {
+    width: fit-content;
+    padding: 0 6px 0 6px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    border-style:solid;
+    background-color: white;
+    font-family: 'Roboto';
+    font-size:xxx-large;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.StatusCopyTitle {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align:start;
+    margin-bottom: 10px;
+}
+
+.StatusCopyDescription {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    color: #c5c5c5;
+    text-align:start;
+}
+
+@media only screen and (max-width: 1400px) {
+    .StatusCopy {
+        width: 30%;
+        margin-left: 10vh;
+    }
+    
+    .StatusGraphics {
+        width: 70%;
+    }
+
+    .StatusCopyTitle {
+        font-size: 25px;
+    }
+
+    .StatusCopyDescription{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .StatusContainer {
+        height: 80%;
+        margin-top: 150px;
+    }
+
+    .StatusCopy {
+        width: 50%;
+        margin-left: 5vh;
+    }
+
+    .StatusGraphics {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 720px)  {
+    .StatusContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        height: 80%;
+        margin-top: 130px;
+    }
+
+    .StatusCopy {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .StatusGraphics {
+        width: 100%;
+    }
+
+    .StatusCopyWhiteSquare {
+        font-size:xx-large;
+    }
+
+    .StatusCopyWhiteSquare {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .StatusCopyTitle {
+        font-size: 24px;
+        text-align: center
+    }
+
+    .StatusCopyDescription {
+        text-align: center;
+    }
+}
