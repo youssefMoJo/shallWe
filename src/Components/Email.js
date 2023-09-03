@@ -9,7 +9,7 @@ const Email = () => {
     event.preventDefault();
 
     const res = await fetch(
-      "https://simplify-598c6-default-rtdb.firebaseio.com/emails.json",
+      "https://shallwe-c36e9-default-rtdb.firebaseio.com/emails.json",
       {
         method: "POST",
         headers: {
