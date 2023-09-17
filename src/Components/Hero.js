@@ -2,7 +2,6 @@ import "../Styles/Hero.css";
 import OrangeSpot from "./OrangeSpot";
 
 const Hero = () => {
-
   const scrollToBottom = () => {
     window.scrollTo(0, document.documentElement.scrollHeight);
   };
@@ -22,7 +21,9 @@ const Hero = () => {
           Your Go to AI Solution <br></br> for more hangouts
         </div>
         <div className="HeroCopyTitle">
-          <button className="signUpButton" onClick={scrollToBottom}>Sign Up</button>
+          <button className="signUpButton" onClick={scrollToBottom}>
+            Sign Up
+          </button>
         </div>
       </div>
       <OrangeSpot right={true} />
