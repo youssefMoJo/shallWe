@@ -1,4 +1,5 @@
 import "../Styles/Rights.css";
+
 const Rights = () => {
   return (
     <div className="rights">
