@@ -6,6 +6,7 @@ import Status from "./Components/Status";
 import Chatting from "./Components/Chatting";
 import Gallery from "./Components/Gallery";
 import Footer from "./Components/Footer";
+import ExampleComponent from "./Components/ExampleComponent";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Chatting />
       <Gallery />
       <Footer />
+      <ExampleComponent />
     </div>
   );
 }
